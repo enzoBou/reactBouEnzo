@@ -1,0 +1,15 @@
+.cartWidget {
+  width: 100px;
+}
+
+.cartNum {
+  position: relative;
+  top: -50px;
+  left: 90px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}/*# sourceMappingURL=CartWidget.css.map */
