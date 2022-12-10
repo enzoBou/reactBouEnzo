@@ -1,0 +1,14 @@
+.card {
+    width: 250px;
+    height: 600px;
+    background-color: #733BF5;
+    box-shadow: 0 0 5px;
+    img{
+        height: 325px;
+        padding: 25px;
+    }
+    .cardCount{
+        position: absolute;
+        bottom: 80px;
+    }  
+}

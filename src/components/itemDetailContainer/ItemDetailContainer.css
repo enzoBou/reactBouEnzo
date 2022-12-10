@@ -1,0 +1,17 @@
+.cardContainer {
+  background-color: #A785F7;
+  display: flex;
+}
+.cardContainer .itemDetailDescription {
+  width: 500px;
+  display: flex;
+  font-size: 20px;
+  position: absolute;
+  top: 400px;
+  right: 100px;
+}
+.cardContainer .cardContenedor {
+  margin-top: 50px;
+  position: relative;
+  right: 250px;
+}/*# sourceMappingURL=ItemDetailContainer.css.map */

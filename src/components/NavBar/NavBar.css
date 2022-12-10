@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 150px 50px;
-  background-color: gray;
+  background-color: #371C75;
 }
 .navBar .containerRight {
   grid-column: 3/4;
@@ -13,7 +13,7 @@
 }
 .navBar .containerRight .containerRightA {
   padding: 10px;
-  color: black;
+  color: white;
   text-decoration: none;
   text-shadow: 0 0 1px #000;
 }
@@ -38,10 +38,26 @@
 }
 .navBar .containerTitleRight {
   grid-column: 1/2;
-  grid-row: 2/3;
-  padding-left: 30px;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 30px;
 }
 .navBar .containerTitleRight .productosTitle {
   font-size: 30px;
   margin-top: 5px;
+  color: white;
+}
+.navBar .containerLeftB {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin-left: 15px;
+  padding: 10px;
+}
+.navBar .containerLeftB .containerLeftBChild {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }/*# sourceMappingURL=NavBar.css.map */

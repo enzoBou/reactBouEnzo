@@ -1,14 +1,15 @@
-.cartWidget{
-    width: 100px;
-}
-.cartNum{
-    position: relative;
-    top: -50px;
-    left: 90px;
-    color: white;
-    background-color: black;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    text-align: center;
+.cartWidgetContainer{
+    position: absolute;
+    top: 120px;
+    .cartWidget{
+        width: 70px;
+        margin-left: 10px;
+    }
+    .cartNum{
+        position: absolute;
+        left: 80px;
+        top: 30px;
+        color: white;
+        font-size: 25px;
+    }
 }

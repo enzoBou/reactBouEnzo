@@ -1,0 +1,27 @@
+.errorContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 1px;
+    justify-content: center;
+    .errorTitle{
+        display: flex;
+        justify-content: center;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding-top: 30px;
+    }
+    .errorImg{
+        display: flex;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        animation: rebote 1s alternate infinite ease-in;
+    }
+}
+@keyframes rebote{
+    0%{
+        transform: translateY(-6%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
