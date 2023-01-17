@@ -1,8 +1,8 @@
-.countContainer {
+.count-container {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 35px 40px;
-    .countNum {
+    .count-num {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -11,15 +11,15 @@
         font-size: 25px;
         color: #000;
     }
-    .countButtonA{
+    .count-button-a{
         grid-column: 3/4;
         grid-row: 1/2;
     }
-    .countButtonB{
+    .count-button-b{
         grid-column: 1/2;
         grid-row: 1/2;
     }
-    .countButtonC{
+    .count-button-c{
         grid-column: 1/4;
         grid-row: 2/3;
         margin-top: 5px;

@@ -1,9 +1,10 @@
 import React from 'react'
-import { products } from '../../productsMock'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import "./ItemDetailContainer.scss"
 import { ItemDetail } from '../itemDetail/ItemDetail'
+import { getDoc, doc, collection } from 'firebase/firestore'
+import { db } from '../../firebaseConfig'
+import "./ItemDetailContainer.scss"
 
 export const ItemDetailContainer = () => {
 
@@ -12,14 +13,23 @@ export const ItemDetailContainer = () => {
   const { id } = useParams()
 
   useEffect( ()=>{
+    const itemCollection = collection(db, "products")
+    const ref = doc( itemCollection, id )
 
-    const productSelected = products.find( producto => producto.id === +id )
-    setProduct(productSelected)
-  }, [id])
+    getDoc(ref)
+    .then( res  => {
+      setProduct(
+        {
+          id: res.id,
+          ...res.data()
+        }
+      )
+    })
+  }, [id]);
   
   return (
     <div className='cardContainer'>
-       <ItemDetail product={product}/>
+      <ItemDetail product={product}/>
     </div>
   )
 }

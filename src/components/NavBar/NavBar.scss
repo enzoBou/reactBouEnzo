@@ -1,25 +1,25 @@
-.navBar{
+.nav-bar{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 150px 50px;
     background-color: #371C75;
-    .containerRight{
+    .container-right{
         grid-column: 3/4;
         grid-row: 2/3;
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        .containerRightA{
+        .container-right-a{
             padding: 10px;
             color: white;
             text-decoration: none;
             text-shadow: 0 0 1px #000;
         }
-        .containerRightA:hover{
+        .container-right-a:hover{
             opacity: 0.5;
         }
     }
-    .containerLeft{
+    .container-left{
         grid-column: 1/2;
         grid-row: 2/3;
         display: flex;
@@ -35,25 +35,25 @@
         align-items: center;
         text-align: center;
     }
-    .containerTitleRight{
+    .container-title-right{
         grid-column: 1/2;
         grid-row: 1/2;
         display: flex;
         justify-content:flex-start;
         align-items: flex-end;
         margin-left: 30px;
-        .productosTitle{
+        .productos-title{
             font-size: 30px;
             margin-top: 5px;
             color: white;
         }
     }
-    .containerLeftB{
+    .container-left-b{
         grid-column: 1/2;
         grid-row: 2/3;
         margin-left: 15px;
         padding: 10px;
-        .containerLeftBChild{
+        .container-left-b-child{
             padding: 5px;
             color: white;
             text-decoration: none;

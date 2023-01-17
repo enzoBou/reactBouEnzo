@@ -1,9 +1,9 @@
-.countContainer {
+.count-container {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: 35px 40px;
 }
-.countContainer .countNum {
+.count-container .count-num {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,15 +12,15 @@
   font-size: 25px;
   color: #000;
 }
-.countContainer .countButtonA {
+.count-container .count-button-a {
   grid-column: 3/4;
   grid-row: 1/2;
 }
-.countContainer .countButtonB {
+.count-container .count-button-b {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-.countContainer .countButtonC {
+.count-container .count-button-c {
   grid-column: 1/4;
   grid-row: 2/3;
   margin-top: 5px;

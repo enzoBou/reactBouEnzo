@@ -1,7 +1,7 @@
-import './CartWidget.scss'
 import { Link } from "react-router-dom"
 import { useContext } from 'react'
 import { CartContext } from '../../context/CartContext'
+import './CartWidget.scss'
 
 
 export const CartWidget = () => {
@@ -9,9 +9,9 @@ export const CartWidget = () => {
 
     return(
         <Link to="/cart">
-        <div className="cartWidgetContainer">
-            <img className="cartWidget" src="https://res.cloudinary.com/dq2i2t2tz/image/upload/v1670190108/carrito-de-compras_gxoeai.png" alt=""/>
-            <p className="cartNum">{cart.lenght}</p>
+        <div className="cart-widget-container">
+            <img className="cart-widget" src="https://res.cloudinary.com/dq2i2t2tz/image/upload/v1670190108/carrito-de-compras_gxoeai.png" alt=""/>
+            <p className="cart-num">{cart.length}</p>
         </div>
         </Link>
     )

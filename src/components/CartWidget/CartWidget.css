@@ -1,12 +1,12 @@
-.cartWidgetContainer {
+.cart-widget-container {
   position: absolute;
   top: 120px;
 }
-.cartWidgetContainer .cartWidget {
+.cart-widget-container .cart-widget {
   width: 70px;
   margin-left: 10px;
 }
-.cartWidgetContainer .cartNum {
+.cart-widget-container .cart-num {
   position: absolute;
   left: 80px;
   top: 30px;

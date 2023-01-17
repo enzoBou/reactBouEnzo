@@ -3,9 +3,9 @@ import "./Error404.scss"
 
 export const Error404 = () => {
   return (
-    <div className='errorContainer'>
-        <h2 className='errorTitle'>Pagina no encontrada...</h2>
-        <img className='errorImg' src="https://res.cloudinary.com/dq2i2t2tz/image/upload/c_scale,fl_png8,h_416,w_610/v1670110128/fitness-and-weightlifting-logo-vector_mx7xhs.jpg" alt="" />
+    <div className='error-container'>
+        <h2 className='error-title'>Por favor seleccione productos de la tienda</h2>
+        <img className='error-img' src="https://res.cloudinary.com/dq2i2t2tz/image/upload/v1673739347/Sin_t%C3%ADtulo-2_gzryvl.jpg" alt="" />
     </div>
   )
-}
+};

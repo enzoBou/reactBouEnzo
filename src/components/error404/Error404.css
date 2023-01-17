@@ -1,22 +1,23 @@
-.errorContainer {
+.error-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 150px 1px;
   justify-content: center;
+  margin-top: -200px;
 }
-.errorContainer .errorTitle {
+.error-container .error-title {
   display: flex;
   justify-content: center;
   grid-column: 2/3;
   grid-row: 1/2;
-  padding-top: 30px;
 }
-.errorContainer .errorImg {
+.error-container .error-img {
   display: flex;
   grid-column: 2/3;
   grid-row: 2/3;
   -webkit-animation: rebote 1s alternate infinite ease-in;
           animation: rebote 1s alternate infinite ease-in;
+  width: 300px;
 }
 
 @-webkit-keyframes rebote {

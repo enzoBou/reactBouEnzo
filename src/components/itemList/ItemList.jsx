@@ -6,7 +6,7 @@ export const ItemList = ({ items }) => {
     return (
         <div className="cardContainer">
             {items.map((element) => {
-                return <Item key={element.name} element={element} />
+                return <Item key={element.id} element={element} />
             })}
         </div>
     )
